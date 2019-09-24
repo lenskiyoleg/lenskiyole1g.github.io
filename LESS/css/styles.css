@@ -1,0 +1,37 @@
+.header
+{
+	font-size: 20px;
+}
+.header span
+{
+	display: block;
+}
+.form-header
+{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.form
+{
+	border: 5px solid #2722d9;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.form-btn
+{
+	margin: 20px auto;
+	background-color: #2722d9;
+}
+.form input
+{
+	margin-bottom: 12px;
+}
+.section
+{
+	background-color: pink;
+	padding: 30px;
+	border: 5px solid black;
+}

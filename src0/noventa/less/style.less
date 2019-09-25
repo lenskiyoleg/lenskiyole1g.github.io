@@ -1,0 +1,54 @@
+body
+{
+	min-width: 320px;
+	font-size: 14px;
+	font-family: 'Playfair Display';
+	color: #626262;
+}
+header
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	.nav-item
+	{
+		text-transform: uppercase;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.nav-item a::after{
+		content: '';
+		display: block;
+		width: 100%;
+		background-color: #ccc;
+		height: 1px;
+		transform: scale(0);
+		transition: all .3s;
+	}
+	.nav-item a:hover::after
+	{
+		transform: scale(1);
+	}
+}
+
+.container-fluid
+{
+	border:1px solid grey;
+}
+section
+{
+	
+	.col-md-10
+	{
+		border:2px solid red;
+	}
+	.post-little a
+	{
+		color: #626262;
+	}
+	.carous
+	{
+		border:2px solid #626262 ;
+		width: 550px;
+	}
+}

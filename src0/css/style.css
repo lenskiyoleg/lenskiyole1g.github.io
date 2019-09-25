@@ -3,6 +3,13 @@ body {
   font-size: 14px;
   font-family: 'Playfair Display';
   color: #626262;
+  height: 2000px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 header .nav-item {
   text-transform: uppercase;
@@ -23,4 +30,10 @@ header .nav-item a::after {
 header .nav-item a:hover::after {
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+.content {
+  padding: 100px;
+}
+section {
+  padding: 100px;
 }

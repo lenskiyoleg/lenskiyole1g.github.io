@@ -4,11 +4,9 @@ body
 	font-size: 14px;
 	font-family: 'Playfair Display';
 	color: #626262;
-	height: 2000px;
 }
 header
 {
-	position: fixed;
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -32,11 +30,25 @@ header
 		transform: scale(1);
 	}
 }
-.content
+
+.container-fluid
 {
-	padding: 100px;
+	border:1px solid grey;
 }
 section
 {
-	padding: 100px;
+	
+	.col-md-10
+	{
+		border:2px solid red;
+	}
+	.post-little a
+	{
+		color: #626262;
+	}
+	.carous
+	{
+		border:2px solid #626262 ;
+		width: 550px;
+	}
 }

@@ -38,7 +38,7 @@ body, html
 	font-size: 2.0em;
 }
 .carousel-inner img
-{
+{	
 	height: 100%;
 	transform: translateY(-20%);
 }
@@ -104,4 +104,14 @@ body, html
 #more
 {
 	display: none;
+}
+.pr1 a
+{
+	font-weight: 700;
+	color: grey;
+	text-align: left;
+}
+.jumbotron .micro
+{
+	text-align: justify;
 }

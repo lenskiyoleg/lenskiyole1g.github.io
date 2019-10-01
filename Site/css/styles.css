@@ -9,7 +9,8 @@ body, html
 	font-size: 20px; 
 	overflow-y: scroll;
 	scroll-behavior: smooth; 
-}
+	
+} 
 
 
 .navbar-nav li
@@ -108,10 +109,100 @@ body, html
 .pr1 a
 {
 	font-weight: 700;
-	color: grey;
+	color: black;
 	text-align: left;
+	font-size: calc(100vw * 0.03);
 }
 .jumbotron .micro
 {
 	text-align: justify;
+}
+
+.jumbotron
+{
+	padding: 1em;
+	border-radius: 0;
+	
+}
+.padding
+{
+	padding: 1em;
+}
+.alert
+{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2em;
+}
+.alert hr
+{
+	border-top: 2px solid silver;
+	width: 95%;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+}
+.first
+{
+	width: 90%;
+	margin: 0 auto;
+}
+.hrtop
+{
+	border-top: 2px solid silver;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+	text-shadow: 1px 1px 10px #000;
+}
+.fa-users
+{
+	color: #c7a9a9;
+}
+.fa-clipboard-list {color: grey}
+.fa-briefcase{color: #a39387}
+.fa-users, .fa-briefcase, .fa-clipboard-list
+{
+	font-size: 5em; 
+}
+@media all and (min-width: 992px){
+	.adaptive {
+		font-size: calc(100vw *0.03);
+	}
+}
+@media all and (min-width: 1400px){
+	.adaptive {
+		font-size: calc(100vw * 0.02);
+	}
+}
+@media all and (max-width: 991px){
+	.adaptive {
+		font-size: calc(100vw * 0.03);
+	}
+}
+.adaptive a
+{
+	font-style: bold;
+	color: black;
+}
+@media all and (min-width: 992px){
+	.modaltext {
+		font-size: calc(100vw *0.03);
+	}
+}
+@media all and (min-width: 1400px){
+	.modaltext {
+		font-size: calc(100vw * 0.01);
+	}
+}
+@media all and (max-width: 991px){
+	.modaltext {
+		font-size: calc(100vw * 0.03);
+	}
+}
+.modaltext
+{
+	text-align: justify;
+}
+.modal-title
+{
+	font-weight: bold;
 }

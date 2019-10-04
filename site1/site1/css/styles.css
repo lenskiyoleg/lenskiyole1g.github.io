@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+body, html
+{
+	
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	height: 100%;
+	width: 100%;
+	font-size: 20px; 
+	overflow-y: scroll;
+	scroll-behavior: smooth; 
+	background-color: #f7f7f5;
+} 
+
+.card-group
+{
+	background-color: #f7f7f5;
+	border-radius: 0;
+}
+.navbar-nav li
+{
+	padding-right: 50px;
+}
+
+.nav-item a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: white;
+  height: 1px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.nav-item a:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.navbar-brand
+{
+	font-size: 2.0em;
+}
+.carousel-inner img
+{	
+	height: 100%;
+	transform: translateY(-20%);
+}
+.carousel-caption
+{
+	position: absolute;
+	top: 50%;
+	text-shadow: 1px 1px 10px #000;
+	transform: translateY(-60%);
+}
+.carousel-inner
+{	
+	
+	height: 600px;
+}
+@media all and (min-width: 992px){
+	.peep {
+		font-size: calc(100vw *0.06);
+	}
+}
+@media all and (min-width: 1400px){
+	.peep {
+		font-size: calc(100vw * 0.05);
+	}
+}
+@media all and (max-width: 991px){
+	.peep {
+		font-size: calc(100vw * 0.08);
+	}
+}
+
+@media all and (min-width: 992px){
+	.micro {
+		font-size: calc(100vw *0.02);
+	}
+}
+@media all and (min-width: 1400px){
+	.micro {
+		font-size: calc(100vw * 0.015);
+	}
+}
+@media all and (max-width: 991px){
+	.micro {	
+		font-size: calc(100vw * 0.03);
+	}
+}
+.nav-link
+{
+	font-size: 20px;
+}
+.peep a
+{
+	font-style: bold ; 
+	color:#f2f1ed;
+	line-height: 0;
+}
+@media (min-width: 1100px)
+{
+	.carousel-inner img{
+		width: 100%;
+		height: 100%;
+	}
+}
+.
+#more
+{
+	display: none;
+}
+.pr1 a
+{
+	font-weight: 700;
+}
+.jumbotron .micro
+{
+	text-align: justify;
+}
+
+.jumbotron
+{
+	padding: 1em;
+	border-radius: 0;
+	
+}
+}
+.alert
+{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2em;
+}
+.alert hr
+{
+	border-top: 3px solid silver;
+	width: 70%;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+}
+.first
+{
+	margin: 0 auto;
+}
+.hrtop
+{
+	border-top: 2px solid silver;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+	text-shadow: 1px 1px 10px #000;
+}
+.fa-users
+{
+	color: #c7a9a9;
+}
+.fa-clipboard-list {color: grey}
+.fa-briefcase{color: #a39387}
+.fa-users, .fa-briefcase, .fa-clipboard-list
+{
+	font-size: 4em; 
+	margin: 0.5em;
+}
+
+.adaptive
+{
+	margin-top: calc(100vh*0.03);
+	margin-right: 20px;
+}
+@media all and (min-width: 766px){
+	.modaltext {
+		font-size: calc(100vw *0.015);
+	}
+}
+@media all and (max-width: 765px){
+	.modaltext {
+		font-size: calc(100vw * 0.035);
+	}
+}
+@media all and (min-width: 1400px){
+	.modaltext {
+		font-size: calc(100vw * 0.01);
+	}
+}
+
+@media all and (min-width: 761px){
+	.btntext {
+		font-size: calc(100vw *0.02);
+	}
+}
+@media all and (min-width: 1400px){
+	.btntext {
+		font-size: calc(100vw * 0.015);
+	}
+}
+@media all and (max-width: 760px){
+	.btntext {
+		font-size: calc(100vw * 0.03);
+	}
+}
+.modal-title
+{
+	font-weight: bold;
+}
+footer
+{
+	border-top: 4px solid silver;
+	color: white;	
+}
+footer h2
+{
+	color: white;
+}
+footer h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: white;
+  height: 1px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+footer h2:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.btn
+{
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.card
+{
+	padding-top:1em;
+}
+.btn-outline-info
+{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}

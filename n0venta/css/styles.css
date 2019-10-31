@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+body, html
+{
+	
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	height: 100%;
+	width: 100%;
+	font-size: 20px; 
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	background-color: #f2f2f2;
+} 
+
+.card-group
+{
+	background-color: #f7f7f5;
+	border-radius: 0;
+}
+.navbar-nav li
+{
+	padding-right: 50px;
+}
+
+.nav-item a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: white;
+  height: 1px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.nav-item a:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.navbar-brand
+{
+	font-size: 2.0em;
+}
+.carousel-inner img
+{	
+	height: 100%;
+	transform: translateY(-20%);
+}
+.carousel-caption
+{
+	position: absolute;
+	top: 50%;
+	text-shadow: 1px 1px 10px #000;
+	transform: translateY(-60%);
+}
+.carousel-inner
+{	
+	
+	height: 600px;
+}
+@media all and (min-width: 992px){
+	.peep {
+		font-size: calc(100vw *0.06);
+	}
+}
+@media all and (min-width: 1400px){
+	.peep {
+		font-size: calc(100vw * 0.05);
+	}
+}
+@media all and (max-width: 991px){
+	.peep {
+		font-size: calc(100vw * 0.09);
+	}
+}
+
+@media all and (min-width: 992px){
+	.micro {
+		font-size: calc(100vw *0.02);
+	}
+}
+@media all and (min-width: 1400px){
+	.micro {
+		font-size: calc(100vw * 0.015);
+	}
+}
+@media all and (max-width: 991px){
+	.micro {	
+		font-size: calc(100vw * 0.03);
+	}
+}
+@media all and (min-width: 700px){
+	.modaltext {
+		font-size: calc(100vw *0.03);
+	}
+}
+@media all and (min-width: 1100px){
+	.modaltext {
+		font-size: calc(100vw * 0.01);
+	}
+}
+@media all and (max-width: 700px){
+	.modaltext {	
+		font-size: calc(100vw * 0.04);
+	}
+}
+.nav-link
+{
+	font-size: 20px;
+}
+.peep a
+{
+	font-style: bold ; 
+	color:#f2f1ed;
+	line-height: 0;
+}
+@media (min-width: 1100px)
+{
+	.carousel-inner img{
+		width: 100%;
+		height: 100%;
+	}
+}
+.
+
+.pr1 a
+{
+	font-weight: 700;
+}
+.jumbotron .micro
+{
+	text-align: justify;
+}
+
+.jumbotron
+{
+background-color: #f2f2f2;
+border-radius: 0;
+}
+
+.alert
+{
+	width: 75%;
+	margin: 0 auto;
+}
+.alert hr
+{
+	border-top: 3px solid silver;
+	width: 70%;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+}
+.first
+{
+	margin: 0 auto;
+}
+.hrtop
+{
+	border-top: 2px solid silver;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+	text-shadow: 1px 1px 10px #000;
+}
+.fa-user-graduate, .fa-briefcase, .fa-clipboard-list, .fa-user-check
+{
+	font-size: 4em; 
+	margin: 0.5em;
+	color: #524f42;
+}
+.fa-chevron-circle-up
+{
+	font-size: 4em;
+	color:	#524f42;
+	background-color: white;
+	border-radius: 50%;
+	border-color: transparent;
+	
+}
+@media all and (max-width: 765px)
+{
+	.fa-chevron-circle-up
+	{
+		font-size: 3.5em;
+	}
+}
+
+.adaptive
+{
+	margin-top: calc(100vh*0.03);
+	margin-right: 20px;
+}
+.modal-title
+{
+	font-weight: bold;
+}
+footer
+{
+	border-top: 4px solid silver;
+	color: white;	
+}
+footer h2
+{
+	color: white;
+}
+footer h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: white;
+  height: 1px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+footer h2:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.btn
+{
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.card
+{
+	padding-top:1em;
+}
+
+.apparats
+{
+	border: 2px solid grey;
+	margin-bottom:15px;
+}
+.apparats:hover 
+{
+	border: 2px solid black;
+}
+.ap
+  {
+    right: 50px;
+    bottom: 20px;
+    position: fixed;
+  }
+  .ap:hover,
+  .ap:focus
+  {
+    filter: brightness(1.5);
+    outline: none;
+  }
+  .bright
+  {
+  	filter: brightness(40%);
+  }
+  .bright:hover,
+  .bright:focus
+  {
+    filter: brightness(60%);
+    outline: none;
+  }
+
+.image
+{
+	overflow: hidden;
+	margin-bottom:30px;	
+}
+.image img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+ }
+ 
+.image img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+ .modalhr
+ {
+ 	border-top: 2px solid silver;
+ 	text-shadow: 1px 1px 10px #000;
+ }
+ @media all and (max-width: 1000px)
+{
+	.media img
+	{
+		height: 120px;
+	}
+}
+ @media all and (min-width: 1001px)
+{
+	.media img
+	{
+		height: 200px;
+		w170px
+	}
+}
+

@@ -104,6 +104,11 @@ body, html
 		font-size: calc(100vw * 0.04);
 	}
 }
+@media all and (max-width: 700px){
+	.navbar-brand {	
+		width: 75px;
+	}
+}
 .nav-link
 {
 	font-size: 20px;
